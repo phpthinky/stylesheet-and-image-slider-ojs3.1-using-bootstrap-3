@@ -13,5 +13,3 @@ Go to your journal > setting ? website
  slider.tpl
 
 This simple image slider can be use in showing the editorial board/team/staff in home page, for me i add it in indexJournal.tpl below main-content. Currently it is just an static page you must know basic bootstrap 3 and smarty(.tpl) before using it.
-
-Thank you.
