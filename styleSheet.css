@@ -1,0 +1,125 @@
+.navbar-header{
+	height:103px;
+	background-color:  rgba(13,79,179,1);
+	width: 100% !important;
+	margin-top: -47px;
+	padding-top: 0;
+}
+.site-name{
+position: absolute;
+top:0;
+padding-left:10px;
+padding-bottom:50px;
+min-width: 300px;
+	padding-left: 15px;
+	position: absolute;
+	z-index: 9999;
+	top: -10px;
+	background-color:  rgba(13,79,179,1);
+}
+
+.site-name > a > img{
+	width: 100%;
+	min-height:100px !important;
+	margin-top: -10px;
+}
+
+.site-name > a > img:hover{
+
+}
+
+#nav-menu{
+	margin-top:50px;
+	background:rgba(8,103,247,1);
+	z-index: 999;
+}
+
+.navbar-brand-logo{
+
+}
+
+.navbar-brand-logo:hover{
+
+}
+
+.navbar-brand{
+
+
+}
+.site-name:hover .navbar-brand{
+	background-color:  rgba(13,79,179,1);
+	height: 60px;
+
+}
+
+ul#navigationUser{margin-right: 16px;}
+.pkp_block {
+	min-width: 150px;
+}
+#sidebar li{
+	min-width: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+
+body{
+	min-width: 400px;
+}
+.container-fluid{
+	width: 100% !important;
+	background-color:  rgba(13,79,179,1);
+}
+.navbar-header{
+	margin-top: 0;
+	width: 100%;
+	min-width: 400px;
+}
+.site-name > a > img{
+
+	width: 70%;
+	min-height:70px !important;
+	margin-top: -10px;
+
+}
+ul#navigationUser{
+	position: absolute;
+	top: 0px;
+
+	z-index: 999999;
+	right: 10px;
+}
+
+.navbar-toggle{
+	position: absolute;
+	top: 50px;
+
+	z-index: 99999;
+	right: 10px;
+}
+
+#nav-menu{
+	margin-top:-5px;
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+
+ul#navigationUser{
+	position: absolute;
+	top: 50px;
+
+	z-index: 999999;
+	right: 15px;
+}
+
+.navbar-toggle{
+	position: absolute;
+	top: 0px;
+
+	z-index: 99999;
+	right: 15px;
+}
+
+
+}
